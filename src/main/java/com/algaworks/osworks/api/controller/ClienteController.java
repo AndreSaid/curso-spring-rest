@@ -32,9 +32,6 @@ public class ClienteController {
 	@Autowired
 	private CadastroClienteService cadastroClienteService;
 	
-	
-	
-	
 	@GetMapping
 	public List<Cliente> listar() {
 		return clienteRepository.findAll();
